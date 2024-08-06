@@ -33,3 +33,10 @@ HUGO_ENABLEGITINFO = "true"
   from = "/*"
   to = "/404"
   status = 404
+
+[[redirects]]
+  from = "/*"
+  to = "/ru/*"
+  status = 301
+  force = true
+  conditions = {Language = ["ru"]}
