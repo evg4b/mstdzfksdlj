@@ -30,11 +30,6 @@ HUGO_VERSION = "0.131.0"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
-
-[[redirects]]
   from = "/"
   to = "/ru"
   status = 301
@@ -46,3 +41,8 @@ HUGO_ENABLEGITINFO = "true"
   to = "/ru"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
