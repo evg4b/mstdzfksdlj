@@ -37,6 +37,13 @@ HUGO_ENABLEGITINFO = "true"
   conditions = {Language = ["ru"]}
 
 [[redirects]]
+  from = "/*"
+  to = "/ru/:splat"
+  status = 301
+  force = true
+  conditions = {Language = ["ru"]}
+
+[[redirects]]
   from = "/tttttt"
   to = "/ru"
   status = 301
