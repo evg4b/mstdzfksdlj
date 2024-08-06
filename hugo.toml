@@ -2,3 +2,25 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
+
+[languages]
+  [languages.ru]
+    contentDir = 'content/ru'
+    disabled = false
+    languageCode = 'ru-RU'
+    languageDirection = 'ltr'
+    languageName = 'Russian'
+    title = 'Projekt Dokumentation'
+    weight = 1
+    [languages.ru.params]
+      subtitle = 'Referenz, Tutorials und Erklärungen'
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Project Documentation'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
